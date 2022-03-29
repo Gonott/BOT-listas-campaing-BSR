@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOT listas campaing BSR", "BOT listas campaing BSR\BOT listas campaing BSR.csproj", "{EA4D980C-641F-46FE-9FD1-80DE93A2DD33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA4D980C-641F-46FE-9FD1-80DE93A2DD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4D980C-641F-46FE-9FD1-80DE93A2DD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4D980C-641F-46FE-9FD1-80DE93A2DD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4D980C-641F-46FE-9FD1-80DE93A2DD33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D94285A5-9DAF-4FCC-AEBD-C149144BD371}
+	EndGlobalSection
+EndGlobal
