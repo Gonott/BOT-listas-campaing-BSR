@@ -31,7 +31,7 @@ namespace BOT_listas_campaing_BSR
                     if (!Convert.IsDBNull(dr[i]))
                     {
                         string value = dr[i].ToString();
-                        if (value.Contains(','))
+                        if (value.Contains(';'))
                         {
                             sw.Write(value);
                         }
@@ -42,7 +42,7 @@ namespace BOT_listas_campaing_BSR
                     }
                     if (i < dtDataTable.Columns.Count - 1)
                     {
-                        sw.Write(",");
+                        sw.Write(";");
                     }
                 }
                 sw.Write(sw.NewLine);

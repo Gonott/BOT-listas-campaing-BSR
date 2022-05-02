@@ -28,7 +28,7 @@ namespace BOT_listas_campaing_BSR
                 foreach (DataTable table in dTMaker.LlenarTablasCVS().Tables)
                 {
                     Console.WriteLine("Generando CVS para " + table.TableName.ToString());
-                    table.ToCSV(path + table.TableName.ToString() + s + ".cvs");
+                    table.ToCSV(path + table.TableName.ToString() + s + ".csv");
                 }
             }
 
