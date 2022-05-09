@@ -22,20 +22,20 @@ namespace BOT_listas_campaing_BSR
             try
             {
                 Console.WriteLine("Leyendo datos de No Vistos para MovilGate");
-                DataTable tablaNoVistosMG = objetoDatos.TraerTabla("SP_LISTAR_NO_VISTOS_SMS_BSR_DIGITAL", "NoVistosMovilGate");
+                DataTable tablaNoVistosMG = objetoDatos.TraerTabla("SP_LISTAR_NO_VISTOS_SMS_BSR_DIGITAL", "SMSNoVistos");
                 dsCVS.Tables.Add(tablaNoVistosMG);
          
                 Console.WriteLine("Leyendo datos de Interesados portal para MovilGate");
-                DataTable tablaInteresadosMG = objetoDatos.TraerTabla("SP_LISTAR_INTERESADOS_PORTAL_SMS_BSR_DIGITAL", "InteresadosMovilGate");
+                DataTable tablaInteresadosMG = objetoDatos.TraerTabla("SP_LISTAR_INTERESADOS_PORTAL_SMS_BSR_DIGITAL", "SMSInteresados");
                 dsCVS.Tables.Add(tablaInteresadosMG);
 
                 Console.WriteLine("Leyendo datos de No vistos para EnvialoSimple");
-                DataTable tablaNoVistosES = objetoDatos.TraerTabla("SP_LISTAR_NO_VISTOS_EMAIL_BSR_DIGITAL", "NoVistosEnvialoSimple");
+                DataTable tablaNoVistosES = objetoDatos.TraerTabla("SP_LISTAR_NO_VISTOS_EMAIL_BSR_DIGITAL", "EMAILNoVistos");
                 dsCVS.Tables.Add(tablaNoVistosES);
 
         
                 Console.WriteLine("Leyendo datos de Interesados portal para EnvialoSimple");
-                DataTable tablaInteresadosES = objetoDatos.TraerTabla("SP_LISTAR_INTERESADOS_PORTAL_EMAIL_BSR_DIGITAL", "InteresadosEnvialoSimple");
+                DataTable tablaInteresadosES = objetoDatos.TraerTabla("SP_LISTAR_INTERESADOS_PORTAL_EMAIL_BSR_DIGITAL", "EMAILInteresados");
                 dsCVS.Tables.Add(tablaInteresadosES);
 
             }
