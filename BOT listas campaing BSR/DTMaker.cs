@@ -29,14 +29,14 @@ namespace BOT_listas_campaing_BSR
                 DataTable tablaInteresadosMG = objetoDatos.TraerTabla("SP_LISTAR_INTERESADOS_PORTAL_SMS_BSR_DIGITAL", "SMSInteresados");
                 dsCVS.Tables.Add(tablaInteresadosMG);
 
-                Console.WriteLine("Leyendo datos de No vistos para EnvialoSimple");
-                DataTable tablaNoVistosES = objetoDatos.TraerTabla("SP_LISTAR_NO_VISTOS_EMAIL_BSR_DIGITAL", "EMAILNoVistos");
-                dsCVS.Tables.Add(tablaNoVistosES);
+                //Console.WriteLine("Leyendo datos de No vistos para EnvialoSimple");
+                //DataTable tablaNoVistosES = objetoDatos.TraerTabla("SP_LISTAR_NO_VISTOS_EMAIL_BSR_DIGITAL", "EMAILNoVistos");
+                //dsCVS.Tables.Add(tablaNoVistosES);
 
         
-                Console.WriteLine("Leyendo datos de Interesados portal para EnvialoSimple");
-                DataTable tablaInteresadosES = objetoDatos.TraerTabla("SP_LISTAR_INTERESADOS_PORTAL_EMAIL_BSR_DIGITAL", "EMAILInteresados");
-                dsCVS.Tables.Add(tablaInteresadosES);
+                //Console.WriteLine("Leyendo datos de Interesados portal para EnvialoSimple");
+                //DataTable tablaInteresadosES = objetoDatos.TraerTabla("SP_LISTAR_INTERESADOS_PORTAL_EMAIL_BSR_DIGITAL", "EMAILInteresados");
+                //dsCVS.Tables.Add(tablaInteresadosES);
 
             }
             catch (Exception ex)
@@ -63,14 +63,14 @@ namespace BOT_listas_campaing_BSR
                 DataTable tablaOpsInteresadosMG = objetoDatos.TraerTabla("SP_LISTA_OPS_SMS_INTERESADOS_PORTAL_BSR_DIGITAL", "OPSInteresadosSMS");
                 dsExcel.Tables.Add(tablaOpsInteresadosMG);
 
-                Console.WriteLine("Leyendo datos de No vistos EMAIL para Operaciones");
-                DataTable tablaOpsNoVistosES = objetoDatos.TraerTabla("SP_LISTA_OPS_NO_VISTO_EMAIL_BSR_DIGITAL", "OPSNoVistosEMAIL");
-                dsExcel.Tables.Add(tablaOpsNoVistosES);
+                //Console.WriteLine("Leyendo datos de No vistos EMAIL para Operaciones");
+                //DataTable tablaOpsNoVistosES = objetoDatos.TraerTabla("SP_LISTA_OPS_NO_VISTO_EMAIL_BSR_DIGITAL", "OPSNoVistosEMAIL");
+                //dsExcel.Tables.Add(tablaOpsNoVistosES);
 
 
-                Console.WriteLine("Leyendo datos de Interesados EMAIL para Operaciones");
-                DataTable tablaOpsInteresadosES = objetoDatos.TraerTabla("SP_LISTA_OPS_INTERESADOS_PORTAL_EMAIL_BSR_DIGITAL", "OPSInteresadosEnvialoSimpleEMAIL");
-                dsExcel.Tables.Add(tablaOpsInteresadosES);
+                //Console.WriteLine("Leyendo datos de Interesados EMAIL para Operaciones");
+                //DataTable tablaOpsInteresadosES = objetoDatos.TraerTabla("SP_LISTA_OPS_INTERESADOS_PORTAL_EMAIL_BSR_DIGITAL", "OPSInteresadosEnvialoSimpleEMAIL");
+                //dsExcel.Tables.Add(tablaOpsInteresadosES);
 
             }
             catch (Exception ex)
